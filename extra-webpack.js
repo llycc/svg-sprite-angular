@@ -6,7 +6,7 @@ const fs = require('fs');
 const svgSpriteConfig = {
   svgIdPrefix: 'icon-',       // svg的id前缀
   insertLabelAfter: '<body>', // svg内容将会插入的标签后面
-  iconDir: 'assets'           // svg图标所在的文件夹
+  iconDir: 'src/assets/icons'           // svg图标所在的文件夹
 };
 
 const svgSpriter = new SVGSpriter({
